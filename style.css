@@ -1,0 +1,177 @@
+body{
+    background-color: white;
+    margin: 150px 100px;
+}
+
+.title{
+    border:5px solid;
+    border-color: white white white red;
+    padding-left: 20px;
+    display:inline-block;
+    font-size:15px;
+    font-weight: 100px;
+    margin-top:0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#colorful_title{
+    color:orange;
+}
+.title_description p{
+   color:rgba(0, 0, 0, 0.753);
+   font-size: 25px;
+   font-family:'Josefin Sans', sans-serif;
+   
+}
+
+.title_description button{
+    padding:15px 25px;
+    background-color: rgb(212, 74, 74);
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.first_part .ShapeDivs{
+    display: inline-block;
+    
+}
+
+.firstPart_right {
+    width: 300px;
+    height:300px;
+    
+}
+.firstPart_right img{
+    width:100%;
+    padding-left: 200px;
+}
+.second_part{
+    height:600px;
+}
+.second_part .missionTitle h1{
+    font-size: 50px;
+    text-align: center;
+}
+.second_part .missionTitle h1 span{
+    color:orange;
+}
+.missonBoxes .box{
+    width:450px;
+    height:300px;
+    background-color: brown;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.missonBoxes{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.missonBoxes .box img{
+    width:200px;
+    height:150px;
+    padding-left: 30px;
+}
+
+.missonBoxes .box h4{
+    padding-left: 30px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+.missonBoxes .box p{
+    padding-left: 30px;
+    font-size: 25px;
+    font-size: 20px;
+}
+.third_part{
+    height: 500px;
+    margin-top:220px;
+}
+
+.thirdPart_left{
+    width:450px;
+    height:350px;
+}
+.thirdPart_left img{
+    width:100%;
+    margin-top:100px;
+}
+.third_part{
+    display: inline-block;
+}
+.third_part .heading{
+    margin-left:510px;
+    padding-bottom: 200px;
+    position:relative;
+    bottom:200px;
+
+}
+
+.about_heading{
+    position:relative;
+    bottom:400px;
+    left:505px;
+    margin-top: 0px;
+    
+}
+
+.about_heading h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.about_heading p{
+    font-size: 20px;
+    margin:0px 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    position:relative;
+    bottom:10px;
+}
+
+.para{
+    font-size: 20px;
+    margin:0px 0px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.fourth_part{
+    display:flex;
+}
+
+.right{
+    margin-left:100px;
+    width:700 px;
+    height:500px;
+}
+.right img{
+    width:100%;
+    height:500px;
+}
+
+.fifth_part{
+    display:flex;
+    margin-top: 200px;;
+}
+.fifth_part .leftSide{
+    width:700 px;
+    height:500px;
+}
+.fifth_part .leftSide img{
+    width:100%;
+    height: 500px;
+}
+
+.rightSide{
+    margin-left: 100px;
+}
+.AboutMyHeading{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
